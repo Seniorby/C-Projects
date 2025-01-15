@@ -1,0 +1,23 @@
+Console.WriteLine("Menü");
+Console.WriteLine("----------");
+Console.WriteLine("Yiyecekleri Görmek için 'y' sembolünü Kullanınız\n-----------");
+Console.WriteLine("İçecekler Görmek için 'i' sembolünü Kullanınız\n-----------");
+Console.WriteLine("Tatlıları Görmek için 't' sembolünü Kullanınız\n-----------");
+string menu;
+menu = Console.ReadLine();
+if (menu == "y")
+{
+    Console.WriteLine("Yiyecekler:\n-------------");
+    Console.WriteLine("Hamburger\n Çıtır Tavuk\n Şinitzel\n Izgara Tavuk\n Nachos\n Taco\n Quesedilla\n Suşi");
+}
+if (menu == "i")
+{
+    Console.WriteLine("İçecekler:\n-------------");
+    Console.WriteLine("Kola\nFanta\nAyran\nGazoz\nSu\nSoğuk Kahve Çeşitleri\nSıcak Kahve Çeşitleri\nMilkshake\n");
+}
+if (menu == "t")
+{
+    Console.WriteLine("Tatlılar:\n-------------");
+    Console.WriteLine("Trileçe\nMagnoliya\nBaklava\nPanna Cotta\nBaklava\n");
+}
+Console.WriteLine("----------")
